@@ -1,0 +1,35 @@
+{
+    "16d019ef59e": {
+        "path": "friend_list.ts",
+        "class": "friend_list",
+        "parentPath": "",
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100,
+        "bindingDataTestObj": [],
+        "guideLinesEnabled": false
+    },
+    "global": {
+        "globalBindingDataTestObj": [],
+        "globalAdsorbEnable": true
+    },
+    "16d046aa8fe": {
+        "path": "../resource/eui_skins/homePage.ts",
+        "class": "homePage",
+        "parentPath": ""
+    },
+    "16d0491df90": {
+        "path": "indexPage.ts",
+        "class": "indexPage",
+        "parentPath": ""
+    },
+    "16d0494a5f6": {
+        "path": "../resource/eui_skins/indexPage.ts",
+        "class": "indexPage",
+        "parentPath": ""
+    }
+}

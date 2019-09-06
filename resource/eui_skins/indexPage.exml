@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="indexPageSkin" width="750" height="1624" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16d0494a5f6" ></w:Config>
+	<e:Image id="indexImage" source="homeCard_png" x="0" y="0"/>
+	<e:Image source="活动规则_png" x="626" y="0"/>
+	<e:Image source="开奖记录_png" x="626" y="305"/>
+	<e:Image source="每日奖品_png" x="626" y="411"/>
+	<e:Image source="我的抽奖码_png" x="626" y="517"/>
+	<e:Image source="组 32 拷贝_png" x="37" y="964"/>
+	<e:Image id="clickImg" source="按钮 拷贝_png" x="205" y="892"/>
+	<e:Image source="圆角矩形 581_png" x="452" y="696"/>
+	<e:Label text="抽奖码领取机会:  1次" x="248" y="1306" width="253" height="26" fontFamily="Microsoft YaHei" textColor="0x010101" size="25"/>
+	<e:Label text="距结束倒计时" x="202" y="184" width="206" height="33" fontFamily="MicrosoftYaHei-Bold" textColor="0x030303" size="33" bold="true"/>
+</e:Skin>
