@@ -23,7 +23,6 @@ var indexPage = (function (_super) {
         return indexPage.share;
     };
     indexPage.prototype.UIComplete = function () {
-        console.log(23435);
         /**
          * 注册相关监听器
          */
@@ -63,7 +62,6 @@ var indexPage = (function (_super) {
         var data = JSON.parse(request.response);
         if (data.code == 200) {
             var time = data.data.time;
-            console.log(time);
             var chanceNum = data.data.chanceNum;
             var name_1 = data.data.name;
             var icon = data.data.icon;
@@ -72,6 +70,9 @@ var indexPage = (function (_super) {
             var people_num = data.data.people_num;
             var nickname = data.datanickname;
             var avatar = data.data.avatar;
+            this.goodName.removeChildren();
+            // this.goodImg.addChild(icon);
+            this.goodName.addChild(name_1);
         }
     };
     indexPage.prototype.onPostIOError = function (event) {

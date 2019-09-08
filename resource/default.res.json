@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,homePage_png,joinButton_png,homeCard_png,活动规则_png,开奖记录_png,每日奖品_png,我的抽奖码_png,组 32 拷贝_png,按钮 拷贝_png,圆角矩形 581_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,homePage_png,joinButton_png,homeCard_png,活动规则_png,开奖记录_png,每日奖品_png,我的抽奖码_png,组 32 拷贝_png,按钮 拷贝_png,圆角矩形 581_png,组 30 拷贝_png,组 36_png",
 			"name": "preload"
 		}
 	],
@@ -180,6 +180,16 @@
 			"name": "圆角矩形 581_png",
 			"type": "image",
 			"url": "assets/Home/圆角矩形 581.png"
+		},
+		{
+			"name": "组 30 拷贝_png",
+			"type": "image",
+			"url": "assets/Home/组 30 拷贝.png"
+		},
+		{
+			"name": "组 36_png",
+			"type": "image",
+			"url": "assets/Home/组 36.png"
 		}
 	]
 }

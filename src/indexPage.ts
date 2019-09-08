@@ -1,6 +1,8 @@
 class indexPage extends eui.Component implements  eui.UIComponent {
 
-	public clickImg:eui.Image;
+	public clickImg:eui.Image;		//点击图
+	public goodImg: eui.Group;		//商品图
+	public goodName: eui.Group;
 
 	private static share: indexPage//单例
 
@@ -18,7 +20,6 @@ class indexPage extends eui.Component implements  eui.UIComponent {
 	}
 
 	private UIComplete() {
-		console.log(23435)
 		/**
 		 * 注册相关监听器
 		 */
@@ -65,7 +66,6 @@ class indexPage extends eui.Component implements  eui.UIComponent {
 
 		if(data.code == 200){
 			let time = data.data.time;
-			console.log(time)
 			let chanceNum = data.data.chanceNum;
 			let name = data.data.name;
 			let icon = data.data.icon;
@@ -74,6 +74,10 @@ class indexPage extends eui.Component implements  eui.UIComponent {
 			let people_num = data.data.people_num;
 			let nickname = data.datanickname;
 			let avatar = data.data.avatar;
+
+			this.goodName.removeChildren();
+			// this.goodImg.addChild(icon);
+			this.goodName.addChild(name);
 		}
 	}
 

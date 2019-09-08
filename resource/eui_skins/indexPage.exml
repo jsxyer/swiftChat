@@ -11,4 +11,11 @@
 	<e:Image source="圆角矩形 581_png" x="452" y="696"/>
 	<e:Label text="抽奖码领取机会:  1次" x="248" y="1306" width="253" height="26" fontFamily="Microsoft YaHei" textColor="0x010101" size="25"/>
 	<e:Label text="距结束倒计时" x="202" y="184" width="206" height="33" fontFamily="MicrosoftYaHei-Bold" textColor="0x030303" size="33" bold="true"/>
+	<e:Label text="¥" x="149" y="775" anchorOffsetX="0" width="14" anchorOffsetY="0" height="54" textColor="0xcb4336" size="43" fontFamily="MicrosoftYaHei-Bold"/>
+	<e:Label text="0" x="176" y="772" width="27" height="43" textColor="0xcb4336" bold="true" size="50" fontFamily="MicrosoftYaHei-Bold"/>
+	<e:Label text="抽奖价" x="204" y="776" anchorOffsetX="0" width="170" anchorOffsetY="0" height="62" textColor="0xcb4336" size="41" fontFamily="MicrosoftYaHei-Bold" bold="true"/>
+	<e:Label text="邀请好友助力，双方均可增加1次领抽奖码机会" x="169" y="834" width="412" height="20" textColor="0x6b6b6b" size="22" fontFamily="Microsoft YaHei" bold="true"/>
+	<e:Label text="1个名额" x="465" y="701" width="54" height="16" size="15" fontFamily="Microsoft YaHei"/>
+	<e:Group id="goodImg" width="467" height="407" x="143" y="260"/>
+	<e:Group id="goodName" width="220" height="29" x="226" y="696"/>
 </e:Skin>
